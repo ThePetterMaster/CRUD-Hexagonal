@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import javax.transaction.Transactional;
 
-import io.swagger.annotations.Api;
+
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -28,7 +28,6 @@ import com.example.CRUD.service.UserService;
 
 @RestController
 @CrossOrigin
-@Api(value="API REST")
 @RequestMapping("/api")
 public class UserController {
     @Autowired
